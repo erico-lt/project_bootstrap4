@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;      
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+body{
+    background: #cea719;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background: transparent;
+    box-shadow: 1px 7px 5px -5px rgba(0, 0, 0, 0.253);
+}
+header nav ul li{
+    margin-right: 12px;
+}
+.area_apresentao_card{
+    color: white;
+}
+.area_apresentao_card p{
+    font-size: 1.07em;
+}
