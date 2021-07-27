@@ -14,6 +14,20 @@ header{
 }
 header nav ul li{
     margin-right: 12px;
+    border-radius: 5px;    
+}
+header nav ul li:hover{
+    background: rgba(255, 250, 250, 0.651);
+    text-indent: 20px;    
+}
+header nav ul li a{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    display: block;
+}
+header nav ul a:hover{
+    color: black;
+    text-decoration:overline 3px rgb(24, 206, 24);
 }
 .area_apresentao_card{
     color: white;
