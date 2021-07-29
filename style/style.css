@@ -4,34 +4,32 @@
     list-style-type: none;      
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-body{
-    background: #cea719;
+body{    
     font-family: 'Source Sans Pro', sans-serif;
 }
 header{
-    background: transparent;
+    background: #cea719;    
     box-shadow: 1px 7px 5px -5px rgba(0, 0, 0, 0.253);
 }
 header nav ul li{
     margin-right: 12px;
     border-radius: 5px;    
 }
-header nav ul li:hover{
+header nav ul li.nav-item:hover{
     background: rgba(255, 250, 250, 0.651);
     text-indent: 20px;    
 }
-header nav ul li a{
+header nav ul li a.link_nav{
     color: rgb(255, 255, 255);
     padding: 5px;
     display: block;
 }
-header nav ul a:hover{
+header nav ul a.link_nav:hover{
     color: black;
     text-decoration:overline 3px rgb(24, 206, 24);
 }
-.area_apresentao_card{
+#home{
+    background: #cea719;
     color: white;
 }
-.area_apresentao_card p{
-    font-size: 1.07em;
-}
+
